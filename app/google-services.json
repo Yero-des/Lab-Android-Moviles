@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "629665567025",
+    "project_id": "d-marco-ef5b9",
+    "storage_bucket": "d-marco-ef5b9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:629665567025:android:26128c826f511afcc22010",
+        "android_client_info": {
+          "package_name": "com.dmarco.dmarcoapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "629665567025-a9hcd1c0nht83ndek0jruh0ftnhfs8e7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDnCFGbMAHmnhE29YIpm--nz4bnb__tPy8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "629665567025-a9hcd1c0nht83ndek0jruh0ftnhfs8e7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
