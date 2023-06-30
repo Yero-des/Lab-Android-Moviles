@@ -1,10 +1,16 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:gravity="center"
     android:orientation="vertical"
+    android:paddingEnd="20dp"
+    android:paddingStart="20dp"
     android:background="@color/dmarco">
 
     <ImageView
@@ -16,50 +22,35 @@
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
-        android:textColorHint="@color/teal_200">
+        android:layout_marginTop="10dp">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edtEmail"
+            android:id="@+id/edtCorreo"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/white"
-            android:hint="Correo"
             android:inputType="textEmailAddress"
             android:textColor="@color/purple_500"
             android:maxLength="50"
             android:singleLine="true"
-            android:textSize="18sp">
-
-        </com.google.android.material.textfield.TextInputEditText>
+            android:hint="Correo"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
     <com.google.android.material.textfield.TextInputLayout
         android:layout_width="match_parent"
         android:layout_height="60dp"
-        android:layout_marginTop="20dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
+        android:layout_marginTop="10dp"
         app:passwordToggleEnabled="true"
-        app:passwordToggleTint="@color/purple_500"
-        android:textColorHint="@color/teal_200">
+        app:passwordToggleTint="@color/purple_700">
 
         <com.google.android.material.textfield.TextInputEditText
-            android:id="@+id/edtPass"
+            android:id="@+id/edtClave"
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:backgroundTint="@color/white"
-            android:hint="Clave"
             android:inputType="textPassword"
-            android:textColor="@color/purple_500"
-            android:maxLength="50"
-            android:singleLine="true"
-            android:textSize="18sp">
-
-        </com.google.android.material.textfield.TextInputEditText>
+            android:hint="Contraseña"/>
 
     </com.google.android.material.textfield.TextInputLayout>
 
@@ -67,15 +58,18 @@
     <Button
         android:id="@+id/btnLogin"
         android:layout_width="match_parent"
-        android:layout_height="70dp"
+        android:layout_height="60dp"
         android:layout_marginTop="40dp"
-        android:layout_marginStart="40dp"
-        android:layout_marginEnd="40dp"
-        android:textSize="18sp"
-        android:textColor="@color/white"
-        android:text="Iniciar Sesión"
-        android:textAllCaps="true"
+        android:text="Iniciar sesion"
         android:backgroundTint="#C4DF9341"/>
+
+    <Button
+        android:id="@+id/btnRegister"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:text="Registrarte"
+        android:backgroundTint="#C43B72DF"/>
 
 
     <LinearLayout
@@ -111,3 +105,5 @@
     </com.google.android.gms.ads.AdView>
 
 </LinearLayout>
+
+</ScrollView>

@@ -13,13 +13,18 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.DMarcoApp"
         tools:targetApi="31">
+        <activity
+            android:name=".registro.RegisterActivity"
+            android:exported="false" />
+
         <service
             android:name=".notificaciones.FirebaseMessagingService"
             android:exported="false">
             <intent-filter>
-                <action android:name="com.google.firebase.MESSAGING_EVENT"/>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
             </intent-filter>
         </service>
+
         <activity
             android:name=".LauncherActivity"
             android:exported="true">
@@ -29,16 +34,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
-        <activity android:name=".PlatosActivity"/>
-
-        <activity android:name=".LoginActivity"/>
+        <activity android:name=".PlatosActivity" />
+        <activity android:name=".login.LoginActivity" />
 
         <meta-data
             android:name="com.google.android.gms.ads.APPLICATION_ID"
-            android:value="ca-app-pub-8656384756863225~8618769465"
-            />
-
+            android:value="ca-app-pub-8656384756863225~8618769465" />
     </application>
 
 </manifest>

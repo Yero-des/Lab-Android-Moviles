@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
 import androidx.appcompat.app.AppCompatActivity
+import com.dmarco.dmarcoapp.login.LoginActivity
 
 
 class LauncherActivity : AppCompatActivity() {
@@ -17,7 +18,7 @@ class LauncherActivity : AppCompatActivity() {
 
         Handler().postDelayed({
             startActivity(Intent(this, LoginActivity::class.java))
-        },6000)
+        },2000)
 
     }
 }

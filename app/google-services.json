@@ -1,33 +1,91 @@
 {
   "project_info": {
-    "project_number": "629665567025",
-    "project_id": "d-marco-ef5b9",
-    "storage_bucket": "d-marco-ef5b9.appspot.com"
+    "project_number": "462014514423",
+    "project_id": "tecsup-apps-2023-zc",
+    "storage_bucket": "tecsup-apps-2023-zc.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:629665567025:android:26128c826f511afcc22010",
+        "mobilesdk_app_id": "1:462014514423:android:11f97ecc1cd4a7ea56fff2",
         "android_client_info": {
           "package_name": "com.dmarco.dmarcoapp"
         }
       },
       "oauth_client": [
         {
-          "client_id": "629665567025-a9hcd1c0nht83ndek0jruh0ftnhfs8e7.apps.googleusercontent.com",
+          "client_id": "462014514423-v5gh21o4e2ot117fsturgojuftm7f3q7.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyDnCFGbMAHmnhE29YIpm--nz4bnb__tPy8"
+          "current_key": "AIzaSyA9L0HlYkmUinrWVKkR302ZFtW_R3zHcss"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "629665567025-a9hcd1c0nht83ndek0jruh0ftnhfs8e7.apps.googleusercontent.com",
+              "client_id": "462014514423-v5gh21o4e2ot117fsturgojuftm7f3q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462014514423:android:28547475909e3d6256fff2",
+        "android_client_info": {
+          "package_name": "com.example.tecsupapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462014514423-v5gh21o4e2ot117fsturgojuftm7f3q7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9L0HlYkmUinrWVKkR302ZFtW_R3zHcss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462014514423-v5gh21o4e2ot117fsturgojuftm7f3q7.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:462014514423:android:d0e3e640e3c12cae56fff2",
+        "android_client_info": {
+          "package_name": "com.tecsup.pc1"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "462014514423-v5gh21o4e2ot117fsturgojuftm7f3q7.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA9L0HlYkmUinrWVKkR302ZFtW_R3zHcss"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "462014514423-v5gh21o4e2ot117fsturgojuftm7f3q7.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
