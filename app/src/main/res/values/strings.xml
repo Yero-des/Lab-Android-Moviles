@@ -1,3 +1,9 @@
 <resources>
     <string name="app_name">DMarco App</string>
+    <string name="lugares_turisticos">Lugares turisticos en Perú</string>
+    <string name="chan_chan">Chan chan</string>
+    <string name="sipan">Señor de sipan</string>
+    <string name="description_chan_chan">Chan Chan es una antigua ciudad de barro ubicada en la costa norte de Perú. Fue la capital del reino Chimú, y es considerada la ciudad de adobe más grande de América. Sus impresionantes murallas y complejos arquitectónicos muestran la grandeza de la civilización Chimú. Explorar Chan Chan te transportará a una época fascinante de la historia peruana.</string>
+    <string name="description_sipan">El Señor de Sipán es uno de los descubrimientos arqueológicos más importantes de Perú. Se trata de un antiguo gobernante moche que fue enterrado con grandes riquezas y tesoros. El complejo arqueológico de Sipán te permite sumergirte en la cultura moche y admirar las increíbles piezas de oro, plata y cerámica encontradas en la tumba. Descubre la majestuosidad y el misterio que rodea al Señor de Sipán.</string>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyA9L0HlYkmUinrWVKkR302ZFtW_R3zHcss</string>
 </resources>

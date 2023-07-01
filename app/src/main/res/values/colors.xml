@@ -9,5 +9,8 @@
     <color name="white">#FFFFFFFF</color>
     <color name="dmarco">#2E190E</color>
     <color name="dmarcos">#2E190E</color>
+    <color name="dmarcos_light">#603D34</color>
+    <color name="dmarcos_dark">#35484B</color>
+    <color name="blue_light">#B3E6FF</color>
     <color name="colorBackground">#EAEDEF</color>
 </resources>

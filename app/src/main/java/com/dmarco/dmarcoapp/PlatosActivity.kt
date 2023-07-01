@@ -1,10 +1,14 @@
 package com.dmarco.dmarcoapp
 
+import android.app.Activity
+import android.content.Intent
 import android.os.Bundle
 import android.view.Menu
+import android.widget.Button
 import androidx.appcompat.app.AppCompatActivity
 import androidx.recyclerview.widget.LinearLayoutManager
 import androidx.recyclerview.widget.RecyclerView
+import com.dmarco.dmarcoapp.map.DashboardMapActivity
 import com.google.android.gms.ads.AdRequest
 import com.google.android.gms.ads.AdView
 import com.google.android.gms.ads.LoadAdError
@@ -42,6 +46,13 @@ class PlatosActivity : AppCompatActivity() {
             layoutManager = LinearLayoutManager(context)
             adapter = PlatosAdapter(listPlatos)
         }
+
+        val btnMap = findViewById<Button>(R.id.btnMap)
+        val dashboardMap = Intent(this, DashboardMapActivity::class.java)
+        btnMap.setOnClickListener {
+            startActivity(dashboardMap)
+        }
+
 
     }
 

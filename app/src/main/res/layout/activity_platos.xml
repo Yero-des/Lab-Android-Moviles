@@ -6,13 +6,24 @@
     android:background="@color/colorBackground"
     xmlns:app="http://schemas.android.com/apk/res-auto">
 
+    <Button
+        android:id="@+id/btnMap"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:backgroundTint="@color/dmarcos_light"
+        android:text="Ver Mapas">
+
+    </Button>
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerPlatos"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:layout_marginTop="20dp"
+        android:layout_height="800dp"
         tools:itemCount="4"
-        tools:listitem="@layout/item_plato"/>
+        tools:listitem="@layout/item_plato"
+        android:layout_below="@+id/btnMap"/>
 
     <com.google.android.gms.ads.AdView
         xmlns:ads="http://schemas.android.com/apk/res-auto"
